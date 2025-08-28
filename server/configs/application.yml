@@ -1,0 +1,23 @@
+server:
+  port: 8080
+  shutdown-timeout: 30s
+
+database:
+  url: postgresql://localhost:5432/defaultdb
+  username: postgres
+  password: "{cipher}AQA..."
+  max-connections: 10
+  min-connections: 2
+
+logging:
+  level:
+    root: INFO
+    com.example: DEBUG
+
+features:
+  new-ui: false
+  analytics: true
+
+cache:
+  ttl: 3600
+  max-size: 1000

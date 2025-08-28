@@ -1,0 +1,19 @@
+database:
+  url: postgresql://prod-db:5432/proddb
+  username: produser
+  password: "{cipher}encrypted-prod-password"
+  max-connections: 50
+
+logging:
+  level:
+    root: WARN
+    com.example: INFO
+
+features:
+  new-ui: true
+  analytics: true
+  debug-mode: false
+
+cache:
+  ttl: 7200
+  max-size: 10000

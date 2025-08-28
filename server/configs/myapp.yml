@@ -1,0 +1,12 @@
+app:
+  name: "My Application"
+  version: "1.0.0"
+
+custom:
+  feature-flags:
+    experimental: false
+    beta: true
+
+  integrations:
+    payment-gateway: "stripe"
+    email-service: "sendgrid"

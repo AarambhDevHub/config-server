@@ -1,0 +1,21 @@
+[workspace]
+members = ["server", "client", "example"]
+resolver = "2"
+
+[workspace.dependencies]
+axum = "0.8.4"
+tokio = { version = "1.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+serde_yaml = "0.9"
+tower = "0.5"
+tower-http = { version = "0.6", features = ["cors", "trace"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+anyhow = "1.0"
+reqwest = { version = "0.12", features = ["json"] }
+base64 = "0.22"
+aes-gcm = "0.10.3"
+rand = "0.8"
+clap = { version = "4.0", features = ["derive"] }
+chrono = "0.4"

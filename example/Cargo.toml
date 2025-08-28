@@ -1,0 +1,15 @@
+[package]
+name = "config-example"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+config-client = { path = "../client" }
+tokio = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+anyhow = { workspace = true }
+
+[[bin]]
+name = "example"
+path = "src/main.rs"

@@ -1,0 +1,15 @@
+database:
+  url: postgresql://localhost:5432/devdb
+  username: devuser
+  password: devpass
+
+logging:
+  level:
+    root: DEBUG
+
+features:
+  new-ui: true
+  debug-mode: true
+
+cache:
+  ttl: 300
