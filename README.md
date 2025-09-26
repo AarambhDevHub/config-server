@@ -59,7 +59,7 @@ A **Spring Boot Config Server** equivalent implemented in Rust using Axum, provi
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/rust-config-server.git
+git clone https://github.com/AarambhDevHub/rust-config-server.git
 cd rust-config-server
 
 # Run the server
@@ -114,7 +114,7 @@ async fn main() -> anyhow::Result<()> {
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/rust-config-server.git
+git clone https://github.com/AarambhDevHub/rust-config-server.git
 cd rust-config-server
 
 # Build all components
@@ -129,7 +129,7 @@ cargo test
 ```bash
 # Add to your Cargo.toml
 [dependencies]
-config-client = { git = "https://github.com/yourusername/rust-config-server.git", package = "config-client" }
+config-client = { git = "https://github.com/AarambhDevHub/rust-config-server.git", package = "config-client" }
 ```
 
 ## ⚙️ Configuration
@@ -557,6 +557,13 @@ cargo watch -x test
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## ☕ Support & Community
+
+If you find Ignitia helpful, consider supporting the project:
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/aarambhdevhub)
+
+
 ## 🙏 Acknowledgments
 
 - **Spring Cloud Config** - Inspiration for the API design
@@ -566,6 +573,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/rust-config-server/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/rust-config-server/discussions)
-- **Documentation**: [Wiki](https://github.com/yourusername/rust-config-server/wiki)
+- **Issues**: [GitHub Issues](https://github.com/AarambhDevHub/rust-config-server/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/AarambhDevHub/rust-config-server/discussions)
+- **Documentation**: [Wiki](https://github.com/AarambhDevHub/rust-config-server/wiki)
